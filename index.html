@@ -4,9 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Web App</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <p>Hello, Telegram!</p>
+    <main>
+        <h1>
+            Добавьте запись об оплате:
+        </h1>
+        <form class="form" action="">
+            <div>
+                <label for="sum">
+                    Сумма
+                </label>
+                <br>
+                <input 
+                    type="text" 
+                    name="sum" 
+                    id="sum"
+                    required
+                    placeholder="0.00"
+                    size="6"
+                >
+            </div>
+            <div>
+                <input type="radio" name="currency" id="rouble" value="rouble">
+                <label for="rouble">₽</label>
+                <br>
+                <input type="radio" name="currency" id="dollar" value="dollar">
+                <label for="dollar">$</label>
+            </div>
+        </form>
+    </main>
 </body>
 </html>

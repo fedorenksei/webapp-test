@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: stretch;
+    background: var(--tg-theme-secondary-bg-color);
+    color: var(--tg-theme-text-color);
+    font: 16px Roboto, sans-serif;
+}
+
+main {
+    padding: 20px;
+    background: var(--tg-theme-bg-color);
+    border-radius: 20px;
+}
+
+.form {
+    display: flex;
+    justify-content: space-between;
+}
